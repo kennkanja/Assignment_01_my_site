@@ -1,11 +1,17 @@
 
 /* Add your CSS styles here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
 }
+.logo{
+  height:30px;
+  width:50px;
+
+ }
 
 header {
   background-color: #66cdaa;
@@ -19,14 +25,112 @@ h1 {
 }
 
 .section {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+#home {
+  background-image: url("images/home.jpg");
+  opacity: 0.9;
+  height: 500px;
+
+}
+.displays{
+  align-items: center;
+  justify-content: center;
+  padding-left: 500px;
+  margin-top:250px;
+}
+.btn{
+  background-color: #66cdaa;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+#about {
+  background-color: #66cdaa;
+  
+
+}
+
+#team {
+  background-image: url("images/about.jpg");
+  opacity: 0.9;
+
+}
+
+#products {
+  background-image: url("images/product.jpg");
+  opacity: 0.9;
+
+}
+
+#survey {
+  
+
+}
+.about-info{
+  display: flex;
+
+}
+.about-img{
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.our-team{
+  display: flex;
+}
+.team-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+}
+#team h3{
+  color: #66cdaa;
+}
+#products p{
+  font-style: italic;
+}
+#products h3{
+  color: #66cdaa;
+}
+
+#survey h3{
+  color: #66cdaa;
+}
+
+
+.team-member{
+  background-color: white;
+  margin: 10px;
+  width: 300px;
+  padding: 10px;
+  align-items: center;
+}
+
+.productz{
+  display: flex;
+}
+.pro{
+  width: 350px;
+}
+.pro img{
+  width: 280px;
+}
 h2 {
   margin-top: 0;
 }
@@ -52,7 +156,10 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
 }
-
+nav{
+  display: flex;
+  align-content: space-between;
+}
 footer {
   background-color: #66cdaa;
   color: #fff;
@@ -63,6 +170,7 @@ footer {
 nav {
   background-color: #f2f2f2;
   padding: 10px;
+  justify-content: space-between;
 }
 
 nav ul {
